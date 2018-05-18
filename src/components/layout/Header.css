@@ -1,0 +1,39 @@
+header {
+	height: 118px;
+	border: 0;
+	border-top-width: 70px;
+	border-style: solid;
+	border-color:#FFF;
+	background-image: linear-gradient(to right, #a4cc25, #64a407);
+	overflow: hidden;
+}
+
+header:after {
+	content: url('../../img/fake-header-bg.png');
+	width:100%;
+	max-width: 960px;
+	position: absolute; 
+	top: 0px; 
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+@media only screen and (max-width:960px) {
+	header {
+		background: url(../../img/fake-header-bg-tablet.jpg) center/100% no-repeat;
+		border: 0;
+	}
+	
+	header:after {	
+		display:none;
+	}
+	
+}
+
+@media only screen and (max-width:360px) {
+	header {
+		width: 100%;
+		height: 57px;
+		background: url(../../img/fake-header-bg-mobile.jpg) center/100% no-repeat;
+	}
+}

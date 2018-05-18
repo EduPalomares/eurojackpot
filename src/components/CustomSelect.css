@@ -1,0 +1,50 @@
+.custom-select {
+	display: inline; 
+	position:relative;
+}
+
+.custom-select select {
+	height: 40px !important;
+    padding-right: 35px;
+    padding-left: 14px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #d9deda;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #012406;
+	cursor:pointer;
+}
+
+.custom-select:before {
+	content:">";
+	position: absolute; 
+	top: 50%; 
+	right: 10px;
+	transform: translateY(-50%) rotate(90deg);
+	font-family: 'Lucida Console', monospace; 
+	font-size: 20px;
+	font-weight: 200;
+	color: #9aa89c;
+	font-stretch: expanded;
+	pointer-events:none;
+}
+
+.custom-select select:hover {
+	border-color: #9aa89c;
+}
+
+.custom-select option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
