@@ -1,4 +1,4 @@
-# bet-ui
+# Eurojackpot Results
 
 ## Introduction
 
