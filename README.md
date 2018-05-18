@@ -34,10 +34,11 @@ In the implementation several images were included to mantain look&feal from mod
 	  
 ## Usage	  
 
+```
 Install: npm install
 Run: npm start
 Test: npm test
-
+```
 
 ## Result
 
