@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EuroJackpotNav />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <ul>
+        <NavLink
+                activeClassName="active"
+                ariaCurrent="true"
+                exact={true}
+                to="/"
+        >
+                <li>
+                        EuroJackpot
+                </li>
+        </NavLink>
+        <NavLink
+                activeClassName="active"
+                ariaCurrent="true"
+                to="/results-winning-numbers"
+        >
+                <li>
+                        EuroJackpot Results & Price Breakdown
+                </li>
+        </NavLink>
+        <NavLink
+                activeClassName="active"
+                ariaCurrent="true"
+                to="/help"
+        >
+                <li>
+                        EuroJackpot Help & Faq
+                </li>
+        </NavLink>
+</ul>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <NavLink
+            activeClassName="active"
+            ariaCurrent="true"
+            exact={true}
+            to="/"
+>
+            <li>
+                        EuroJackpot
+            </li>
+</NavLink>,
+          <NavLink
+            activeClassName="active"
+            ariaCurrent="true"
+            to="/results-winning-numbers"
+>
+            <li>
+                        EuroJackpot Results & Price Breakdown
+            </li>
+</NavLink>,
+          <NavLink
+            activeClassName="active"
+            ariaCurrent="true"
+            to="/help"
+>
+            <li>
+                        EuroJackpot Help & Faq
+            </li>
+</NavLink>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "ariaCurrent": "true",
+            "children": <li>
+              EuroJackpot
+</li>,
+            "exact": true,
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "EuroJackpot",
+            },
+            "ref": null,
+            "rendered": "EuroJackpot",
+            "type": "li",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "ariaCurrent": "true",
+            "children": <li>
+              EuroJackpot Results & Price Breakdown
+</li>,
+            "to": "/results-winning-numbers",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "EuroJackpot Results & Price Breakdown",
+            },
+            "ref": null,
+            "rendered": "EuroJackpot Results & Price Breakdown",
+            "type": "li",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "activeClassName": "active",
+            "ariaCurrent": "true",
+            "children": <li>
+              EuroJackpot Help & Faq
+</li>,
+            "to": "/help",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "EuroJackpot Help & Faq",
+            },
+            "ref": null,
+            "rendered": "EuroJackpot Help & Faq",
+            "type": "li",
+          },
+          "type": [Function],
+        },
+      ],
+      "type": "ul",
+    },
+    "type": "nav",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <ul>
+          <NavLink
+                    activeClassName="active"
+                    ariaCurrent="true"
+                    exact={true}
+                    to="/"
+          >
+                    <li>
+                              EuroJackpot
+                    </li>
+          </NavLink>
+          <NavLink
+                    activeClassName="active"
+                    ariaCurrent="true"
+                    to="/results-winning-numbers"
+          >
+                    <li>
+                              EuroJackpot Results & Price Breakdown
+                    </li>
+          </NavLink>
+          <NavLink
+                    activeClassName="active"
+                    ariaCurrent="true"
+                    to="/help"
+          >
+                    <li>
+                              EuroJackpot Help & Faq
+                    </li>
+          </NavLink>
+</ul>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <NavLink
+              activeClassName="active"
+              ariaCurrent="true"
+              exact={true}
+              to="/"
+>
+              <li>
+                            EuroJackpot
+              </li>
+</NavLink>,
+            <NavLink
+              activeClassName="active"
+              ariaCurrent="true"
+              to="/results-winning-numbers"
+>
+              <li>
+                            EuroJackpot Results & Price Breakdown
+              </li>
+</NavLink>,
+            <NavLink
+              activeClassName="active"
+              ariaCurrent="true"
+              to="/help"
+>
+              <li>
+                            EuroJackpot Help & Faq
+              </li>
+</NavLink>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "ariaCurrent": "true",
+              "children": <li>
+                EuroJackpot
+</li>,
+              "exact": true,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "EuroJackpot",
+              },
+              "ref": null,
+              "rendered": "EuroJackpot",
+              "type": "li",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "ariaCurrent": "true",
+              "children": <li>
+                EuroJackpot Results & Price Breakdown
+</li>,
+              "to": "/results-winning-numbers",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "EuroJackpot Results & Price Breakdown",
+              },
+              "ref": null,
+              "rendered": "EuroJackpot Results & Price Breakdown",
+              "type": "li",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "ariaCurrent": "true",
+              "children": <li>
+                EuroJackpot Help & Faq
+</li>,
+              "to": "/help",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "EuroJackpot Help & Faq",
+              },
+              "ref": null,
+              "rendered": "EuroJackpot Help & Faq",
+              "type": "li",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": "ul",
+      },
+      "type": "nav",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

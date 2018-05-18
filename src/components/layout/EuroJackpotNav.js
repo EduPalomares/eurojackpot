@@ -12,7 +12,6 @@ export default class EuroJackpotNav extends React.Component {
 					<NavLink to="/results-winning-numbers" activeClassName="active"><li>EuroJackpot Results & Price Breakdown</li></NavLink>
 					<NavLink to="/help" activeClassName="active"><li>EuroJackpot Help & Faq</li></NavLink>
 				</ul>
-			
 			</nav>
 		)
 	}

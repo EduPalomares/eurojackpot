@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import _ from 'underscore';
 
 import "./EuroJackpotResultsContent.css";
@@ -12,6 +13,11 @@ export default class EuroJackpotResults extends React.Component {
 		super(props);
 		this.handleUpdateData = this.handleUpdateData.bind(this);
 	}
+	
+	static propTypes = {
+		data: PropTypes.object.isRequired,
+		updatedata: PropTypes.func
+	};
 	
 	handleUpdateData(val) {
 		//this.props.updatedata(val);

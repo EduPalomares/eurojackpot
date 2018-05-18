@@ -7,3 +7,10 @@ it('Layout:: renders without crashing', () => {
 	ReactDOM.render(<Layout />, div);
 	ReactDOM.unmountComponentAtNode(div);
 });
+
+test('render match snapshot', () => {
+    const wrapper= shallow(
+		<Layout />
+    );
+    expect(wrapper).toMatchSnapshot();
+});

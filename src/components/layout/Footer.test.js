@@ -1,16 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import EuroJackpot from './Layout';
+import Footer from './Footer';
 
 it('renders without crashing', () => {
 	const div = document.createElement('div');
-	ReactDOM.render(<EuroJackpot />, div);
+	ReactDOM.render(<Footer />, div);
 	ReactDOM.unmountComponentAtNode(div);
 });
 
 test('render match snapshot', () => {
     const wrapper = shallow(
-		<EuroJackpot />
+		<Footer />
     );
     expect(wrapper).toMatchSnapshot();
 });
