@@ -8,7 +8,8 @@ Implementation of model Eurojackpot from Lottoland using React.js.
 
 ## Technology
 
-* Node.js 	9.11.1 
+* Npm		6.0.1
+* Node.js 	9.11.1
 * React.js 	16.3.2
 * Router	4.2.2
 * Jsonp		0.2.1
@@ -36,7 +37,7 @@ In the implementation several images were included to mantain look&feal from mod
 
 ```
 Install: npm install
-Run: npm start
+Run: npm start (usually http://localhost:3000)
 Test: npm test
 ```
 
