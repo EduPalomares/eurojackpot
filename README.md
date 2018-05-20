@@ -32,7 +32,8 @@ and React 16.30. In particular:
 
 In the implementation several images were included to mantain look&feal from model.
 
-	  
+<br>
+
 ## Usage	  
 
 ```
@@ -40,6 +41,7 @@ Install: npm install
 Run: npm start (usually http://localhost:3000)
 Test: npm test
 ```
+<br>
 
 ## Result
 
