@@ -13,7 +13,7 @@ Implementation of model Eurojackpot from Lottoland using React.js.
 * React.js 	16.3.2
 * Router	4.2.2
 * Jsonp		0.2.1
-
+* Enzyme 	3.3.0
 
 <br>
 
@@ -27,6 +27,8 @@ and React 16.30. In particular:
 * Arrow Functions
 * Clases
 * Let and Const
+
+Tests using Jest and Enzyme.
 
 <br>
 
